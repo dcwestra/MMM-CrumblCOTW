@@ -1,6 +1,6 @@
 # MMM-CrumblCOTW
 
-MagicMirror Module: Crumbl Cookies Flavor of the Week
+MagicMirror Module: Crumbl Cookies of the Week
 
 MMM-CrumblCOTW is a MagicMirror module that displays Crumbl Cookies' weekly rotating flavors. The module fetches data directly from Crumbl Cookies' website and presents the flavors in either a carousel or list format.
 
