@@ -55,6 +55,7 @@ Option|Possible values|Default|Description
 `showDescription`|`true,false`|`true`|Optional: Show/hide the cookie description
 `showImage`|`true,false`|`true`|Optional: Show/hide the cookie image
 `displayMode`|`carousel,list`|`carousel`|Optional: Choose carousel (rotating cookies) or list (all cookies displayed)
+`updateInterval`|`number`|`3600000`|Optional: Set interval to recheck the cookie flavors
 
 ## Updating
 
