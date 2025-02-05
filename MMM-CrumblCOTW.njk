@@ -1,0 +1,21 @@
+<div class="crumbl-container">
+    {% if displayMode === "list" %}
+        <ul class="crumbl-list">
+            {% for cookie in flavors %}
+                <li>
+                    {% if showImage %}<img src="{{ cookie.image }}" class="crumbl-img">{% endif %}
+                    <strong>{{ cookie.name }}</strong>
+                    {% if showDescription %}<p>{{ cookie.description }}</p>{% endif %}
+                </li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        {% for cookie in flavors %}
+            <div class="crumbl-carousel">
+                {% if showImage %}<img src="{{ cookie.image }}" class="crumbl-img">{% endif %}
+                <strong>{{ cookie.name }}</strong>
+                {% if showDescription %}<p>{{ cookie.description }}</p>{% endif %}
+            </div>
+        {% endfor %}
+    {% endif %}
+</div>

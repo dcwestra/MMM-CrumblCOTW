@@ -1,0 +1,43 @@
+.MMM-CrumblCOTW {
+    max-width: 400px; /* Adjust the width as needed */
+    word-wrap: break-word; /* Ensures the text wraps */
+    overflow: hidden; /* Prevents overflow if content exceeds */
+    padding: 10px; /* Optional: Adds space around content */
+    margin: 0 auto; /* Centers the module */
+}
+
+.MMM-CrumblCOTW .description {
+    word-wrap: break-word;
+    max-width: 100%;
+}
+
+.MMM-CrumblCOTW .crumbl-container {
+    text-align: center;
+}
+
+.MMM-CrumblCOTW .crumbl-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.MMM-CrumblCOTW .crumbl-list li {
+    margin-bottom: 15px;
+}
+
+.MMM-CrumblCOTW .crumbl-carousel {
+    animation: fade 1s ease-in-out;
+}
+
+.MMM-CrumblCOTW img {
+    max-width: 150px !important; /* Adjust as needed */
+    max-height: 150px !important;
+    width: auto;
+    height: auto;
+    display: block; /* Ensures it doesn't align with text */
+    margin: 0 auto 10px auto; /* Centers image with space below */
+}
+
+@keyframes fade {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
