@@ -2,5 +2,33 @@
   "dependencies": {
     "axios": "^1.7.9",
     "cheerio": "^1.0.0"
-  }
+  },
+  "name": "mmm-crumblcotw",
+  "version": "1.0.0",
+  "description": "Displays the weekly rotating flavors from Crumbl Cookies on your MagicMirror, with options for images, descriptions, and a carousel or list view.",
+  "main": "MMM-CrumblCOTW.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dcwestra/MMM-CrumblCOTW.git"
+  },
+  "keywords": [
+    "crumbl",
+    "cookies",
+    "national",
+    "flavor",
+    "week",
+    "carousel",
+    "magicmirror",
+    "module"
+  ],
+  "author": "Dave Westra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dcwestra/MMM-CrumblCOTW/issues"
+  },
+  "homepage": "https://github.com/dcwestra/MMM-CrumblCOTW#readme"
 }
