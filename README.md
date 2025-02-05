@@ -1,5 +1,6 @@
 Default Config.
-   
+
+```bash
    {
       module: "MMM-CrumblCOTW",
       position: "top_right",
@@ -9,3 +10,4 @@ Default Config.
           displayMode: "carousel" // Change to "list" for list view
       }
     }
+```
