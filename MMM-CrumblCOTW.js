@@ -3,7 +3,9 @@ Module.register("MMM-CrumblCOTW", {
         showDescription: true,
         showImage: true,
         displayMode: "carousel", // "carousel" or "list"
-        carouselSpeed: 10000 // 10s per item
+        carouselSpeed: 10000, // 10s per item
+        updateInterval: 3600000,
+  },
     },
 
     start() {
@@ -11,6 +13,7 @@ Module.register("MMM-CrumblCOTW", {
         this.currentIndex = 0;
         this.getFlavors();
         this.scheduleUpdates();
+        this.scheduleFlavorFetch();
     },
 
     getStyles() {
@@ -62,5 +65,11 @@ Module.register("MMM-CrumblCOTW", {
                 this.updateDom();
             }
         }, this.config.carouselSpeed);
+    },
+
+   scheduleFlavorFetch() {
+        setInterval(() => {
+            this.getFlavors();
+        }, this.config.updateInterval);
     }
 });
