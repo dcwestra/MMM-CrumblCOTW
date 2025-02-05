@@ -32,7 +32,7 @@ cd MMM-CrumblCOTW
 npm install
 ```
 
-Configuration
+## Configuration
 
 To enable the module, add it to the config.js file in your MagicMirror setup:
 
