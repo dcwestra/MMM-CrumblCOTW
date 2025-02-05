@@ -27,7 +27,7 @@ Navigate to your MagicMirror modules directory and clone the repository:
 
 ```bash
 cd ~/MagicMirror/modules
-git clone https://github.com/YOUR-USERNAME/MMM-CrumblCOTW.git
+git clone https://github.com/dcwestra/MMM-CrumblCOTW.git
 cd MMM-CrumblCOTW
 npm install
 ```
