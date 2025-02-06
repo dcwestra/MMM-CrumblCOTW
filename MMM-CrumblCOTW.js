@@ -4,8 +4,7 @@ Module.register("MMM-CrumblCOTW", {
         showImage: true,
         displayMode: "carousel", // "carousel" or "list"
         carouselSpeed: 10000, // 10s per item
-        updateInterval: 3600000,
-  },
+        updateInterval: 3600000, // 1 hour
     },
 
     start() {
@@ -67,7 +66,7 @@ Module.register("MMM-CrumblCOTW", {
         }, this.config.carouselSpeed);
     },
 
-   scheduleFlavorFetch() {
+    scheduleFlavorFetch() {
         setInterval(() => {
             this.getFlavors();
         }, this.config.updateInterval);
